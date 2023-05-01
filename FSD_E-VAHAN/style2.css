@@ -1,0 +1,28 @@
+
+.d-flex{
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+.d-flex p{
+    font-size: 18px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+}
+.d-flex p i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #16FF00;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;    
+}
+.d-flex p i:hover{
+    background-color: white;
+    color: #16FF00;
+    border: 1px solid #16FF00;
+}
